@@ -1,0 +1,357 @@
+*
+{
+  box-sizing: border-box;
+}
+.slider.x
+{
+  position: absolute;
+}
+.slider.y
+{
+  position: absolute;
+}
+@keyframes x
+{
+  from{opacity: 0;}
+  to{opacity: 0;}
+}
+@keyframes x1
+{
+  from{opacity: 0;}
+  to{opacity: 0;}
+}
+@keyframes a
+{
+  from
+  {
+    left:calc(50vw - 200px);
+    transform: scale(1);
+  }
+  to
+  {    
+    left: calc(92vw - 400px);
+    transform: scale(0.8);
+  }
+}
+@keyframes a1
+{
+    from
+    {
+      left:calc(50vw - 200px);
+      transform: scale(1);
+    }
+    to
+    {    
+      left: calc(92vw - 400px);
+      transform: scale(0.8);
+    }
+}
+@keyframes b
+{
+  from
+  {
+    left:8vw;
+    transform: scale(0.8);
+  }
+  to
+  {
+    left:calc(50vw - 200px);
+    transform: scale(01);
+  }
+}
+@keyframes b1
+{
+  from
+  {
+    left:8vw;
+    transform: scale(0.8);
+  }
+  to
+  {
+    left:calc(50vw - 200px);
+    transform: scale(01);
+  }
+}
+@keyframes c
+{
+  from
+  {
+    left:-400px;
+  }
+  to
+  {
+    left:8vw; 
+  }
+}
+@keyframes c1
+{
+  from
+  {
+    left:-400px;
+  }
+  to
+  {
+    left:8vw; 
+  }
+}
+@keyframes d
+{
+  from
+  {
+    left:calc(92vw - 400px);
+  }
+  to
+  {
+    left:100vw; 
+  }
+}
+@keyframes d1
+{
+  from
+  {
+    left:calc(92vw - 400px);
+  }
+  to
+  {
+    left:100vw; 
+  }
+}
+#a
+{
+  background-color: blue;
+  background-size: cover;
+}
+#b
+{
+  background-color: brown;
+  background-size: cover;
+}
+#c
+{
+  background-color: crimson;
+  background-size: cover;
+}
+#d
+{
+  background-color: cyan;
+  background-size: cover;
+}
+.slider.left
+{
+  animation-name: b;
+  animation-duration: 1s;
+  position: absolute;
+  left: 8vw;
+  transform: scale(0.8);
+}
+.slider.l
+{
+  position: absolute;
+  left: 8vw;
+  transform: scale(0.8);
+}
+.slider.l1
+{
+  position: absolute;
+  left: 8vw;
+  transform: scale(0.8);
+  animation-name: c;
+  animation-duration: 1s;
+}
+.slider.l11
+{
+  position: absolute;
+  left: 8vw;
+  transform: scale(0.8);
+  animation-name: c1;
+  animation-duration: 1s;
+}
+.slider.l111
+{
+  position: absolute;
+  left: 8vw;
+  transform: scale(0.8);
+  animation-name: c1;
+  animation-duration: 1s;
+  animation-direction: reverse;
+  z-index: -100;
+}
+.slider.l1111
+{
+  position: absolute;
+  left: 8vw;
+  transform: scale(0.8);
+  animation-name: c;
+  animation-duration: 1s;
+  animation-direction: reverse;
+  z-index: -100;
+}
+.slider.r
+{
+  position: absolute;
+  left: calc(92vw - 400px);
+  transform: scale(0.8);
+}
+.slider.r1
+{
+  position: absolute;
+  left: calc(92vw - 400px);
+  transform: scale(0.8);
+  animation-name: d;
+  animation-duration: 1s;
+  z-index: -100;
+}
+.slider.r11
+{
+  position: absolute;
+  left: calc(92vw - 400px);
+  transform: scale(0.8);
+  animation-name: d1;
+  animation-duration: 1s;
+  z-index: -100;
+}
+.slider.r111
+{
+  position: absolute;
+  left: calc(92vw - 400px);
+  transform: scale(0.8);
+  animation-name: d1;
+  animation-duration: 1s;
+  animation-direction: reverse;
+  z-index: 100;
+}
+.slider.r1111
+{
+  position: absolute;
+  left: calc(92vw - 400px);
+  transform: scale(0.8);
+  animation-name: d;
+  animation-duration: 1s;
+  animation-direction: reverse;
+  z-index: 100;
+}
+.slider.left1
+{
+  animation-name: b1;
+  animation-duration: 1s;
+  position: absolute;
+  left: 8vw;
+  transform: scale(0.8);
+}
+.slider.left11
+{
+  animation-name: b;
+  animation-duration: 1s;
+  position: absolute;
+  left: 8vw;
+  transform: scale(0.8);
+  animation-direction: reverse;
+}
+.slider.left111
+{
+  animation-name: b1;
+  animation-duration: 1s;
+  position: absolute;
+  left: 8vw;
+  transform: scale(0.8);
+  animation-direction: reverse;
+}
+.slider.right
+{
+  position: absolute;
+  animation: a;
+  left: calc(92vw - 400px);
+  transform: scale(0.8);
+  animation-duration: 1s;
+  z-index: 100;
+}
+.slider.right11
+{
+  position: absolute;
+  animation: a;
+  left: calc(92vw - 400px);
+  transform: scale(0.8);
+  animation-duration: 1s;
+  animation-direction: reverse;
+  z-index: 100;
+}
+.slider.right111
+{
+  position: absolute;
+  animation: a1;
+  left: calc(92vw - 400px);
+  transform: scale(0.8);
+  animation-duration: 1s;
+  animation-direction: reverse;
+  z-index: 100;
+}
+.slider.right1
+{
+  position: absolute;
+  animation: a1;
+  left: calc(92vw - 400px);
+  transform: scale(0.8);
+  animation-duration: 1s;
+  z-index: 100;
+}
+.slider
+{
+  position: absolute;
+  width: 400;
+  height: 300;
+  border: 8px solid white;
+  background-color: white;
+  top: 150;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.s
+{
+  position: absolute;
+  width: 400;
+  height: 300;
+  border: 8px solid white;
+  left: calc(50vw - 200px);
+  background-color: white;
+  top: 150;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  animation-name: x;
+  animation-duration: 1s;
+}
+.s1
+{
+  position: absolute;
+  width: 400;
+  height: 300;
+  border: 8px solid white;
+  left: calc(50vw - 200px);
+  background-color: white;
+  top: 150;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  animation-name: x1;
+  animation-duration: 1s;
+}
+body{
+  background-color: #f6b93c;
+  background-image: url("wall.png");
+}
+.np
+{
+  margin: auto;
+  margin-top: 500px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.np i
+{
+  border-radius: 50px;
+  display: block;
+  text-align: center;
+  float: left;
+  padding: 10px;
+}
+.np i:hover
+{
+  color: white;
+}
